@@ -123,3 +123,125 @@ nav .nav-title {
   list-style: none;
 }
 /*  section feature ends */
+
+/* section services */
+.container-services {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 170px;
+}
+.services {
+  text-align: center;
+  margin-bottom: 24px;
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 35px;
+}
+/* service closed ahah */
+/* sale up */
+.sale-up {
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+  margin-top: 170px;
+}
+.container-sale-up {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+}
+.content-left {
+  text-align: center;
+}
+.sale-up-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+.pink-off {
+  color: #e55473;
+}
+.sale-up-details {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+/* section social */
+.social {
+  margin-top: 170px;
+}
+.social-nav-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+.social-nav-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.social-nav {
+  text-align: center;
+}
+.social-img-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  width: 80%;
+  margin: 28px auto;
+}
+.social-img-container > img {
+  width: 300px;
+  height: 396px;
+}
+/* subscription section */
+.subscription {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  background-image: url(../assets/Rectangle\ 9.png);
+}
+.sub-title {
+  padding-top: 120px;
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+.sub-details {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 16px;
+}
+.subscription form input {
+  width: 700px;
+  height: 64px;
+  color: rgba(39, 39, 39, 0.6);
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+input::placeholder {
+  padding-left:10px;
+}
+.btn-form {
+  width: 150px;
+  height: 64px;
+  display: inline-block;
+  color: white;
+  margin-left: 16px;
+}
