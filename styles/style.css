@@ -1,0 +1,125 @@
+/* common styles */
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+* {
+  font-family: lato, sans-serif;
+}
+
+/* header starts */
+header {
+  background-color: rgba(229, 84, 115, 0.1);
+}
+header nav {
+  display: flex;
+  align-items: center;
+  max-width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  gap: 170px;
+}
+.nav-column {
+  width: 780px;
+  height: auto;
+}
+.nav-img {
+  width: 635px;
+  height: 800px;
+}
+nav .nav-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 60px;
+  margin-bottom: 32px;
+}
+.nav-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 0px;
+  margin-bottom: 32px;
+}
+.btn-primary {
+  margin-top: 0px;
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px 43px;
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+}
+.btn-primary a {
+  text-decoration: none;
+  color: white;
+}
+/* header ends */
+
+/* section feature styles */
+.feature {
+  /* text-align: center; */
+  width: 80%;
+  margin: auto;
+  margin-top: 170px;
+  text-align: center;
+}
+.content-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+.content-description {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.feature img {
+  width: 370px;
+  height: 471px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  vertical-align: bottom;
+}
+.bg-pink {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  width: 464px;
+  height: 538px;
+  vertical-align: bottom;
+}
+.bg-light-blue {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  width: 464px;
+  height: 538px;
+}
+.bg-light-green {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  width: 464px;
+  height: 538px;
+  overflow: hidden;
+}
+
+.container-links {
+  margin-top: 34px;
+}
+.container-links ul {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  list-style: none;
+}
+/*  section feature ends */
