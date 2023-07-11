@@ -60,7 +60,7 @@ nav .nav-title {
 /* header ends */
 
 /* section feature styles */
-.feature {
+#feature {
   /* text-align: center; */
   width: 80%;
   margin: auto;
@@ -90,14 +90,12 @@ nav .nav-title {
   display: flex;
   justify-content: space-between;
   gap: 24px;
-  vertical-align: bottom;
 }
 .bg-pink {
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
   width: 464px;
   height: 538px;
-  vertical-align: bottom;
 }
 .bg-light-blue {
   border-radius: 300px 300px 0px 0px;
@@ -125,7 +123,7 @@ nav .nav-title {
 /*  section feature ends */
 
 /* section services */
-.container-services {
+#container-services {
   display: flex;
   width: 80%;
   justify-content: space-around;
@@ -140,9 +138,9 @@ nav .nav-title {
   font-weight: 600;
   line-height: 35px;
 }
-/* service closed ahah */
+/* service closed  */
 /* sale up */
-.sale-up {
+#sale-up {
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
   margin-top: 170px;
@@ -172,7 +170,7 @@ nav .nav-title {
   line-height: 30px;
 }
 /* section social */
-.social {
+#social {
   margin-top: 170px;
 }
 .social-nav-title {
@@ -204,10 +202,12 @@ nav .nav-title {
   height: 396px;
 }
 /* subscription section */
-.subscription {
+#subscription {
   width: 80%;
+  height: 500px;
   margin: auto;
   text-align: center;
+  background-repeat: no-repeat;
   background-image: url(../assets/Rectangle\ 9.png);
 }
 .sub-title {
@@ -226,22 +226,59 @@ nav .nav-title {
   line-height: 30px;
   margin-top: 16px;
 }
-.subscription form input {
-  width: 700px;
+#subscription form input {
+  width: 650px;
   height: 64px;
   color: rgba(39, 39, 39, 0.6);
   display: inline-block;
   border: none;
   border-radius: 5px;
   display: inline-block;
+  margin-right: 16px;
 }
 input::placeholder {
-  padding-left:10px;
+  padding-left: 10px;
+  font-size: 18px;
 }
 .btn-form {
   width: 150px;
   height: 64px;
-  display: inline-block;
   color: white;
-  margin-left: 16px;
+  text-align: center;
+  
+}
+/* footer related styles */
+footer {
+  background: #111010;
+  text-align: center;
+  width: 100%;
+  height: 350px;
+  padding-top: 128px;
+  padding-bottom: 128px;
+  margin-top: 130px;
+}
+.footer-title {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  color: white;
+  margin-bottom: 24px;
+}
+.text-pink {
+  color: #e55473;
+}
+.info-page {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 24px;
+}
+.copyright-info {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
 }
